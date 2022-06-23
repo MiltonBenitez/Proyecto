@@ -1,0 +1,236 @@
+.blog{ 
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    background-image: url("azulrojo.png"); 
+    background-size: cover;
+    color: aliceblue;
+}
+.CuadroPrincipal{ 
+    
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+.paginainicial{
+    height: 100vh;
+    background-image: url(azulrojo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    
+    justify-content: center;
+    color: white;
+}
+body,html{ 
+    font-size: 16px;
+    max-height: 100%;
+    margin:0;
+}
+
+.redesSociales{ 
+    background-color: #580c02;
+    height: 40px;
+}
+
+.redes_sociales_logo{ 
+    height:30px;
+    margin-right:  20px;
+   
+    align-items:center;     
+}
+.redes_sociales_logo_bio{ 
+    height:30px;
+    margin-right:  2%;
+  align-items: center;
+   
+      
+}
+.redes_sociales_logo_contactanos{ 
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    margin-left: 10px;
+}
+.contenedor_contactanos2{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.menu{ 
+    background-color: #aa0c0c;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu_logotipo{ 
+    height: 60px;
+}
+
+.menu_lista{ 
+    display: flex;
+    list-style: none;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu_lista_link{
+    text-decoration: none;
+    color:black;
+ }
+
+ .menu_lista_elementos{ 
+    margin-left: 40px;
+}
+.fondo{
+    background-color: #580c02;
+    color: white;
+
+}
+.menu_lista_link:hover{ 
+    color: whitesmoke;
+    }
+.header{
+    background:linear-gradient(#000000,#550f06); 
+    height: 70px;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+.footer{ 
+        background:linear-gradient(#550f06,#000000);
+        height: 100px;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    .footer_texto{ 
+        font-family:"play";
+        color:rgb(255, 253, 253);
+        font-size: 20px;
+    }
+   
+    .Lado_Derecho{
+        border: 7px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        align-items: flex-start;
+        
+        /*background-color: #b3aefd;*/
+        
+    }
+    
+    .Lado_Derecho__img{
+        width: 40%;
+        
+    }
+    
+    .Lado_Derecho__texto{
+        width: 35%;
+        justify-content: center;
+    }
+
+     h1,p{
+        margin: 30px;
+        text-align:center;
+    }
+
+.proyectos{
+  /*border: 5px solid red;*/
+  /* width: 25%; */
+  display: flex;
+  justify-content: center;
+}
+.card{
+    /*border: 5px solid red;*/    
+    width: 25%;
+    text-align: center;
+    margin:  10px;
+}
+.imagen_yo{
+    width: 25%;
+    margin:  10px;
+    margin-left: 500px;
+    display: flex;
+    align-items:center;
+}
+.card__img{
+    width: 70%;
+}
+.proyectos2{
+    /*border: 5px solid red;*/
+    /* width: 25%; */
+    display: flex;
+    justify-content: center;
+  }
+.card2{
+      /*border: 5px solid red;*/    
+      width: 25%;
+      text-align: center;
+      margin: 0 10px;
+  }
+
+.espacio{
+     height: 40px;}
+.bton{
+    color: #000000;
+    
+}
+.img_bio{
+    width: 40%;
+  height: 200%;
+}
+/*.cont_bio_principal{
+    background-color: #580c02;
+    display: flex;
+    align-items:flex-start;
+    height: 50;
+}*/
+.cont_bio{
+   width: 40%;
+  
+    /*display: flex;
+    text-align:center;*/
+}
+.parte_bio{
+    border: 7px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    /*background-color: #b3aefd;*/
+    
+}
+.contenedor_contactanos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor_contactanos_po{
+   margin:auto;
+}
+.texto{
+    font-size: 50px;
+}
+.texto2{
+ font-size: 22px;
+}
+
+.button{
+    width: 100px;
+    border-radius: .5em;
+    cursor: pointer;
+}
